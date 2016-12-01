@@ -1,0 +1,12 @@
+var http=requrie("http");
+console.log("http server created");
+var server=http.createServer(function(req,res){
+var index=path.join(__dirname,'number.html');
+var function=path.join(__dirname,'function.html');
+if(req.url=='/'(){
+fs.read
+
+}
+	
+});
+server.listen(8888);

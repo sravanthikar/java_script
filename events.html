@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+		function displayDate(){
+			
+			document.getElementById('demo').innerHTML= Date();
+		}
+		function myMul(){
+			var x=4*4;
+			document.getElementsById('value').innerHTML=x;
+		}
+		function mySub(){
+			document.getElementById('class').innerHTML= "hello";
+		}
+		
+	</script>
+</head>
+<body>
+<p id="class"></p>
+<button onchange="mySub()">sub</button>
+<p id="value">
+<button onmouseover="myMul()"> mul</button>
+
+<button onmouseover="this.innerHTML=Date()">The time is?</button></p>
+<p id="demo">
+<button onclick="displayDate()">Date</button></p>
+</body>
+</html>
